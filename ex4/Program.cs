@@ -1,11 +1,9 @@
 ﻿Console.Clear();
-int first_num = 0;
-int second_num = 0;
-int third_num = 0;
+
 int[] num_array = new int[3];
 
-int max_num = first_num;
-int index = 0;
+int max_num = num_array[0];
+int index = 1;
 
 Console.WriteLine("Введите первое число: ");
 num_array[0] = int.Parse(Console.ReadLine() ?? "");
